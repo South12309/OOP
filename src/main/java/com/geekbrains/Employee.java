@@ -19,7 +19,7 @@ public class Employee {
 
 
     public void print() {
-        System.out.println("ФИО " + fio + ", должность " + position + ", эл.почта " +email+", телефон "+tel+", зарплата "+salary+", возраст "+age+".");
+        System.out.println("ФИО - " + fio + ", должность - " + position + ", эл.почта - " +email+", телефон - "+tel+", зарплата - "+salary+", возраст - "+age+".");
     }
 
 
