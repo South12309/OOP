@@ -6,7 +6,7 @@ public class Employee {
     private String email;
     private String tel;
     private int salary;
-    private int age;
+    public int age;
 
     public Employee(String fio, String position, String email, String tel, int salary, int age) {
         this.fio = fio;
@@ -19,7 +19,7 @@ public class Employee {
 
 
     public void print() {
-        System.out.println("ФИО " + fio + ", должность " + position + ", эл.почта " +email+", телефон "+tel+", зарплата "+salary+", возраст "+age+".");;
+        System.out.println("ФИО " + fio + ", должность " + position + ", эл.почта " +email+", телефон "+tel+", зарплата "+salary+", возраст "+age+".");
     }
 
 
