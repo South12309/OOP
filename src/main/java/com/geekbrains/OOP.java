@@ -10,7 +10,7 @@ public class OOP {
         employees[4] = new Employee("Lenin Ivan Ivanovich", "Manager", "iii5@mail.ru", "89282222222", 40000, 42);
 
         for (int i = 0; i < employees.length; i++) {
-            if (employees[i].age>40)
+            if (employees[i].getAge()>40)
                 employees[i].print();
         }
     }
